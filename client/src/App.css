@@ -1,0 +1,66 @@
+body {
+  font-family: malgun gothic, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: gray;
+}
+
+input,
+button {
+  vertical-align: middle;
+  font-size: 13px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px;
+}
+button[type='submit'] {
+  background: #09f;
+}
+input {
+  border: 1px solid #bebebe;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.postInput {
+  width: 500px;
+}
+button {
+  background: #aaa;
+  color: #fff;
+  border: none;
+  height: 30px;
+  width: 60px;
+  border-radius: 3px;
+}
+
+.postCard {
+  width: 500px;
+  overflow: hidden;
+  height: auto;
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.postContents {
+  font-weight: bold;
+  font-size: larger;
+  color: #09f;
+  margin: 20px;
+}
+
+.postAuthor {
+  margin: 20px;
+  font-weight: bold;
+  font-size: small;
+  color: gray;
+}
